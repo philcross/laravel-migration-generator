@@ -17,7 +17,7 @@ jobs:
     - name: Setup nightly PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4'
+        php-version: '7.3'
 
     - name: Cache Composer packages
       id: composer-cache
